@@ -499,7 +499,7 @@ body {
 
 .card-header h2 {
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 700;
   color: var(--text-main);
 }
 
@@ -1100,10 +1100,6 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--text-main);
-}
-
-#editModalTitle {
-  font-weight: 500;
 }
 
 .modal-close-btn {
