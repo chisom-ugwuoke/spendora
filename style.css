@@ -54,6 +54,7 @@
   --danger-text: #ef4444;
 
   --border-color: #e5e7eb;
+  --expense-divider-color: #F1F2F3;
   --border-focus: #077E75;
 
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -107,6 +108,7 @@
     --icon-neutral: #A6ADAA;
 
     --border-color: #383838;
+    --expense-divider-color: #242424;
     --border-focus: #077E75;
 
     --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
@@ -151,6 +153,7 @@
   --icon-neutral: #A6ADAA;
 
   --border-color: #383838;
+  --expense-divider-color: #242424;
   --border-focus: #077E75;
 
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
@@ -194,6 +197,7 @@
   --icon-neutral: #4b5563;
 
   --border-color: #e5e7eb;
+  --expense-divider-color: #F1F2F3;
   --border-focus: #077E75;
 
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -1334,7 +1338,7 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   .expense-right {
     justify-content: space-between;
     width: 100%;
-    border-top: 1px solid var(--border-color);
+    border-top: 1px solid var(--expense-divider-color);
     padding-top: 10px;
   }
 
