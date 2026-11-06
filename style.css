@@ -1334,7 +1334,7 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   .expense-right {
     justify-content: space-between;
     width: 100%;
-    border-top: 1px dashed var(--border-color);
+    border-top: 1px solid var(--border-color);
     padding-top: 10px;
   }
 
